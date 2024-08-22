@@ -122,9 +122,8 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  // In a real application, you would fetch this data from an API or database
   const posts = [
-    { id: 1, title: 'First Blog Post', excerpt: 'This is my first blog post.' },
+    { id: 1, title: 'First Blog Post', excerpt: 'This is the content of my first blog post.' },
     { id: 2, title: 'Second Blog Post', excerpt: 'This is my second blog post.' },
     { id: 3, title: 'Third Blog Post', excerpt: 'This is my third blog post.' },
   ]
